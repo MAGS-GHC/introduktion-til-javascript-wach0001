@@ -5,4 +5,13 @@ console.log(
 );
 //Lav jeres svar her
 console.log("Hello World");
+console.log("Hello")
+console.log("World")
+console.log("*")
+console.log("**")
+console.log("***")
+console.log("**")
+console.log("*")
+
+
 
