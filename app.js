@@ -134,15 +134,87 @@ for (let index = 0; index < 101; index++) {
 
 console.log("opg 3.3")
 
+let talspil = 0;
 
-let i = 0;
-console.log(i);
-while (i < 10) {
-    console.log(i);
-    i++;
+for (let talspil = 0; talspil < 101; talspil++){
+  if (talspil % 15==0){console.log("FizzBuzz")}
+  else if (talspil % 3==0){console.log("Fizz")}
+  else if (talspil % 5==0){console.log("Buzz")}
+  else {console.log(talspil)}
+
 }
 
-console.log(4.3)
+let talspil2 = 0; 
+
+while(talspil2 < 100){
+  talspil2++
+  if (talspil2 % 15==0){console.log("FizzBuzz")}
+  else if (talspil2 % 3==0){console.log("Fizz")}
+  else if (talspil2 % 5==0){console.log("Buzz")}
+  else {console.log(talspil2)}
+}
+
+console.log("opg 3.4")
+
+let i = 1  
+for(let x = 10; x >=1; x--){
+  i = i * x
+  if(x == 1){
+    console.log(i);
+  }
+}
+
+let o2 = 1
+let i2 = 10
+while (i2 >= 1){
+ o2 = o2 * i2
+ i2--
+if(i2 == 1){
+  console.log(o2);
+
+}
+}
+
+console.log("opg 3.5")
+
+let r = 1
+for (r = 1; r <= 9; r++){
+  r2 = r * 15
+  console.log("15 x " + r + " = " + r2)
+
+}
+
+console.log("opg 4.1")
+
+let byer = ["Randers", "Viborg", "Aarhus", "København"];
+console.log(byer[1]);
+
+console.log("opg 4.2")
+
+let byer2 = ["Randers", "Viborg", "Aarhus", "København"]
+byer2.push ("Skive")
+console.log(byer2);
+
+console.log("opg 4.3")
+
+let talrække =[0, 1, 0, 3, 4, 5, 6]
+talrække[2] = 2
+console.log(talrække);
+
+
+console.log("opg 4.4")
+
+let talrække2 = [1, 2, 3, 4, 11, 55, 99, 100]
+console.log(Math.max(...talrække2));
+
+console.log("opg 4.5 + opg 4.6")
+
+talrække3 = [0, 12, 0, 22, 300, 4, 5]
+talrække3.sort((a, b) => a - b)
+console.log(talrække3);
+
+talrække3.reverse()
+console.log(talrække3);
 
 
 
@@ -160,6 +232,12 @@ console.log(4.3)
 
 
 
+
+
+
+    
+
+   
 
 
 
@@ -171,10 +249,13 @@ console.log(4.3)
 
   
 
+  
 
-  
-     
-  
+ 
+
+
+
+
 
 
 
