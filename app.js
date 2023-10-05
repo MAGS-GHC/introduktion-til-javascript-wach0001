@@ -114,6 +114,56 @@ if (dag ==1){
 
   
 }
+console.log(3.1)
+
+let tal1til100 = 0;
+
+for (let tal1til100 = 0; tal1til100 < 101; tal1til100++){
+  console.log(tal1til100);
+}
+
+console.log(3.2)
+
+let index = 0;
+
+
+for (let index = 0; index < 101; index++) {
+  	    console.log(index + " " + (index + 1) + " " + (index + 2))
+  	}
+
+
+console.log("opg 3.3")
+
+
+let i = 0;
+console.log(i);
+while (i < 10) {
+    console.log(i);
+    i++;
+}
+
+console.log(4.3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
